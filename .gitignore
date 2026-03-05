@@ -1,0 +1,57 @@
+# ==============================
+# 1. Variáveis de Ambiente e Senhas (CRÍTICO)
+# ==============================
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.streamlit/secrets.toml
+
+# ==============================
+# 2. Ambientes Virtuais Python
+# ==============================
+venv/
+env/
+.venv/
+.env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==============================
+# 3. Cache e Arquivos Compilados do Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# ==============================
+# 4. Arquivos de Dados e Planilhas
+# ==============================
+# Ignora arquivos de dados para evitar vazamento de informações do banco
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite3
+
+# ==============================
+# 5. Configurações de IDEs e Editores
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# 6. Arquivos do Sistema Operacional
+# ==============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

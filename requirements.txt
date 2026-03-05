@@ -1,0 +1,12 @@
+# Web e Interface
+streamlit>=1.30.0
+
+# Manipulação de Dados
+pandas>=2.0.0
+
+# Banco de Dados e Conexões
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Variáveis de Ambiente
+python-dotenv>=1.0.0
