@@ -39,3 +39,6 @@ A aplicação foi estruturada em múltiplas páginas (Multipage App) para garant
 │
 └── pages/                     # Páginas do Menu Lateral
     ├── 1_📊_Faturamento.py    # Módulo de cálculo financeiro
+    ├── 2_🎯_Licitacoes.py     # Módulo de oportunidades PNCP
+    ├── 3_⏳_Gestao_Atas.py    # Módulo de controle de Atas
+    └── 4_📚_Catalogo.py       # Base de conhecimento de produtos
